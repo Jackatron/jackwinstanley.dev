@@ -21,7 +21,6 @@ jobs:
           script: |
             cd ${{ secrets.SERVER_PATH }}
             git pull origin main
-            /usr/local/bin/ea-php84 /usr/local/bin/composer install --no-dev --optimize-autoloader
             /usr/local/bin/ea-php84 artisan migrate --force
             /usr/local/bin/ea-php84 artisan config:cache
             /usr/local/bin/ea-php84 artisan route:cache
