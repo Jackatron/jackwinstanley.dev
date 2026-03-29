@@ -3,6 +3,7 @@ import axios from "axios";
 export function bindCustomForms(forms) {
     for(const form of forms) {
         bindForm(form);
+        injectDynamicCsrfToken(form);
     }
 }
 
@@ -77,4 +78,14 @@ function handleValidationErrors(form, errors) {
         }
     }
     validationError?.classList.remove('hidden');
+}
+
+function injectDynamicCsrfToken(form) {
+    axios.get('/token')
+        .then(response => {
+            const token = form.querySelector('input[name="_token"]');
+            if (token) {
+                token.value = response.data;
+            }
+        });
 }
