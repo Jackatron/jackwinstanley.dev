@@ -8,6 +8,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <title>{{ config('app.name', 'Laravel') }}</title>
         <meta name="description" content="{{ __('common.meta_description') }}">
+        <link rel="icon" type="image/png" href="{{ Vite::asset('resources/images/favicon-96x96.png') }}" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="{{ Vite::asset('resources/images/favicon.svg') }}" />
+        <link rel="shortcut icon" href="{{ Vite::asset('resources/images/favicon.ico') }}" />
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" />
+        <meta name="apple-mobile-web-app-title" content="JW.dev" />
+        <link rel="manifest" href="{{ Vite::asset('resources/images/site.webmanifest') }}" />
         <link rel="preconnect" href="https://challenges.cloudflare.com">
         <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
