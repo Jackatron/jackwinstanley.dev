@@ -7,5 +7,5 @@ return [
     'linkedin'         => 'https://www.linkedin.com/in/jackwinstanley99',
     'github'           => 'https://github.com/jackatron',
 
-    'meta_description' => 'Jack Winstanley. I am a developer specialising in back-end development, working with Laravel systems and providing guidance for IT systems. I have a lot of industry experience in both sectors and am able to provide consultancy for both areas. I’m an IT expert who can provide excellent support, guidance and implementation for complicated backup solutions.'
+    'meta_description' => 'Jack Winstanley is a backend developer specialising in Laravel systems, offering expert IT consultancy, support, and advanced backup solutions.'
 ];
