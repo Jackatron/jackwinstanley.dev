@@ -1,0 +1,5 @@
+@layer components {
+    .site-container {
+        @apply max-w-[1440px] mx-auto px-3 md:px-6;
+    }
+}

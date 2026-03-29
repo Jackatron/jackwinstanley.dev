@@ -1,0 +1,5 @@
+.background-cube {
+    background-image: url('../../images/backgrounds/cube.webp');
+    background-clip: 20px;
+    background-repeat: repeat;
+}

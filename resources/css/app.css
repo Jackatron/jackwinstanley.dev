@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@import "aos/dist/aos.css";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Rubik', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-primary: #d74000; /* #ff4000 */
+    --color-light-blue: oklch(0.4256 0.0717 270.98); /* #404c76 */
+    --color-dark-blue: oklch(0.2128 0.1051 262.79); /* #001148 */
+    --color-light-grey: oklch(0.9731 0 0); /* #f6f6f6 */
+    --color-dark-grey: oklch(0.9461 0 0); /* #ededed */
+
+    --color-github: oklch(0.1981 0.0032 17.43); /* 171515 */
+    --color-linkedin: oklch(0.5375 0.1304 243.39); /* 0274b3 */
+}
+[x-cloak] {
+    display: none !important;
+}
+
+@import './components/core';
+@import './components/buttons';
+@import './components/background';
+@import './components/forms';
