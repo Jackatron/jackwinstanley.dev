@@ -1,7 +1,9 @@
 <section class="bg-light-grey py-2 lg:pb-0 lg:pt-8 sm:max-h-[450px] overflow-hidden px-0 lg:px-6 transition-all ease-in-out">
     <div class="site-container flex gap-20 justify-center items-center">
         <div class="hidden md:block lg:relative">
-            <img data-aos="slide-up" class="bg-primary lg:bg-transparent rounded-full lg:rounded-none relative inset-0 xl:-top-4 z-10 ml-10 lg:w-[520px] lg:max-w-[360px] xl:max-w-[462px]" src="{{ Vite::asset('resources/images/jack-hero.webp') }}"/>
+            <img 
+            alt="Jack Winstanley"
+            data-aos="slide-up" class="bg-primary lg:bg-transparent rounded-full lg:rounded-none relative inset-0 xl:-top-4 z-10 ml-10 lg:w-[520px] lg:max-w-[360px] xl:max-w-[462px]" src="{{ Vite::asset('resources/images/jack-hero.webp') }}"/>
             <div data-aos="fade-in" class="hidden lg:block absolute lg:top-4 xl:top-0 inset-0 rounded-full w-[330px] h-[320px] lg:w-[440px] lg:h-[440px] xl:w-[538px] xl:h-[542px] bg-primary"></div>
         </div>
 
