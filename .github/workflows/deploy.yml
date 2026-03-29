@@ -22,7 +22,7 @@ jobs:
             cd ${{ secrets.SERVER_PATH }}
             git pull origin main
             composer install --no-dev --optimize-autoloader
-            php artisan migrate --force
-            php artisan config:cache
-            php artisan route:cache
-            php artisan view:cache
+            /usr/local/bin/ea-php84 artisan migrate --force
+            /usr/local/bin/ea-php84 artisan config:cache
+            /usr/local/bin/ea-php84 artisan route:cache
+            /usr/local/bin/ea-php84 artisan view:cache
