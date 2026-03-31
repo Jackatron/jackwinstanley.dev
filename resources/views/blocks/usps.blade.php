@@ -1,5 +1,5 @@
 <section class="py-3 border-t border-t-gray-200">
-    <div class="site-container flex flex-wrap gap-4 sm:flex-row sm:items-center justify-between">
+    <div class="site-container px-4 flex flex-wrap gap-4 sm:flex-row sm:items-center justify-between">
         @include('blocks.partials.usp-tile', [
             'title'     => '5+ Years',
             'subtitle'  => 'IT Experience',

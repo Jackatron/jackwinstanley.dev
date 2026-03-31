@@ -7,7 +7,7 @@
             <div data-aos="fade-in" class="hidden lg:block absolute lg:top-4 xl:top-0 inset-0 rounded-full w-[330px] h-[320px] lg:w-[440px] lg:h-[440px] xl:w-[538px] xl:h-[542px] bg-primary"></div>
         </div>
 
-        <div class="bg-white px-8 py-4 rounded-2xl lg:px-14 lg:-mt-8 lg:py-5 xl:py-8 xl:px-20 w-full shadow-md lg:top-0 xl:-top-3 relative">
+        <div class="bg-white px-4 sm:px-8 py-4 rounded-2xl lg:px-14 lg:-mt-8 lg:py-5 xl:py-8 xl:px-20 w-full shadow-md lg:top-0 xl:-top-3 relative">
             <h1 class="text-4xl lg:text-3xl xl:text-5xl text-dark-blue font-bold">
                 <span class="sr-only">Hello, I'm Jack Winstanley</span>
                 <span data-typed data-config="hero"></span>

@@ -79,7 +79,7 @@
 
         <h3 class="text-white text-xl font-semibold mb-6 mx-10 mt-6">My Social Links</h3>
 
-        <div class="flex flex-col gap-2 px-10 pb-6 border-b border-b-dark-blue/30">
+        <div class="flex flex-col gap-2 px-6 sm:px-10 pb-6 border-b border-b-dark-blue/30">
             @include('blocks.partials.contact-icon', [
                 'href'      => __('common.github'),
                 'text'      => 'jackatron',
@@ -97,8 +97,8 @@
             ])
         </div>
 
-        <h3 class="text-white text-xl font-semibold mx-10 mt-6">My Resume</h3>
-        <x-button target="_blank" href="/documents/jack-winstanley-cv.pdf" class="btn--primary mx-10 mt-4">Download CV</x-button>
+        <h3 class="text-white text-xl font-semibold mx-6 sm:mx-10 mt-6">My Resume</h3>
+        <x-button target="_blank" href="/documents/jack-winstanley-cv.pdf" class="btn--primary mx-6 sm:mx-10 mt-4">Download CV</x-button>
     </div>
 </section>
 

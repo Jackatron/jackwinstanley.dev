@@ -1,4 +1,4 @@
-<section id="skills" class="py-4 md:py-8 lg:py-12 pb-14 bg-light-blue background-cube scroll-mt-16">
+<section id="skills" class="py-4 md:py-8 lg:py-12 pb-8 sm:pb-14 bg-light-blue background-cube scroll-mt-12">
     <div x-data="{activeTab: 1}" class="site-container">
         <h2 class="text-3xl lg:text-3xl xl:text-4xl text-white text-center font-bold">My Skill Set</h2>
 

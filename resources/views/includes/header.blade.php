@@ -1,4 +1,4 @@
-<header role="banner" class="sticky z-20 top-0 bg-white py-4 shadow-sm">
+<header role="banner" class="sticky z-20 top-0 bg-white py-2 sm:py-4 shadow-sm">
     <div class="site-container flex justify-between items-center">
         <a href="{{ route('home') }}" class="group text-dark-blue font-bold text-lg py-1 px-4 hover:text-primary transition-colors ease-in-out">
             <span>JW</span>
